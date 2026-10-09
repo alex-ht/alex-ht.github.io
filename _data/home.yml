@@ -6,52 +6,31 @@ navbar_entries:
     url: blog
 
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+  - title: agentbox
+    url: https://github.com/alex-ht/agentbox
+    desc: 給小型 LLM agent 用的單一執行檔工具箱（Linux / Windows）
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
+  - title: cryingface-hub
+    url: https://github.com/alex-ht/cryingface-hub
+    desc: 輕量自架的模型與資料集 hub
 
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
+  - title: openclaw-task-guard
+    url: https://github.com/alex-ht/openclaw-task-guard
+    desc: OpenClaw 插件，避免 agent 在交付物完成前就停下來
 
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
+  - title: hermes-skills-mcp-server
+    url: https://github.com/alex-ht/hermes-skills-mcp-server
+    desc: 把 skills 列出、檢視、管理暴露成 MCP 工具
 
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
+  - title: tiny-llm-proxy
+    url: https://github.com/alex-ht/tiny-llm-proxy
+    desc: 輕量 LLM 代理
 
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
-
-old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-    highlight: NEW
-
-  - title: Cookie
-    url: https://github.com/alex-ht
-    desc: An open source landing website with supporting pages and integrated blog
-
-  - title: Moonwalk
-    url: https://github.com/alex-ht/alex-ht.github.io
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
-
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
+  - title: pdf-extraction
+    url: https://github.com/alex-ht/pdf-extraction
+    desc: 從 PDF 抽文字與表格，自動判斷要不要 OCR
 
 footer_entries:
-
   - title: twitter
     url: https://x.com/alex780312
 
@@ -60,35 +39,3 @@ footer_entries:
 
   - title: feed
     url: feed.xml
-
-misc_entries:
-  - title: this is an example vertical list
-    url: false
-
-  - title: you can show or hide using a boolean flag in _config.yml
-    url: false
-
-  - title: and you can add data in _data/home.yml
-    url: false
-
-  - title: Blog posts
-    post_list: true
-    url: false
-
-  - title: moonwalk on the Internet
-    url: false
-    entries:
-      - title: on Github
-        url: https://github.com/alex-ht/alex-ht.github.io
-
-
-      - title: this list is scalable and can be nested
-        url: false
-        entries:
-          - title: this is nested inside a nested list
-            url: false
-
-          - title: it is easy to use, see _data/home.yml to see how to configure it.
-            url: false
-
-
